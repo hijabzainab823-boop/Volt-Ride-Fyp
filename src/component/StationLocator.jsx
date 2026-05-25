@@ -58,7 +58,7 @@ const StationLocator = ({ searchQuery }) => {
 
           {/* Tabs */}
           <div className="flex bg-slate-100 p-2 rounded-3xl border border-slate-200">
-            {["all", "bike", "charging"].map((tab) => (
+            {["all"].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
